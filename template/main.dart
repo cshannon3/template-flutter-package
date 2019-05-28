@@ -1,5 +1,5 @@
 
-import 'package:{{_ "camelCase" name}}/Controllers/main_controller.dart';
+import 'package:{{_ "camelCase" name}}/Controllers/data_controller.dart';
 import 'package:{{_ "camelCase" name}}/Controllers/ui_controller.dart';
 import 'package:{{_ "camelCase" name}}/Screens/activity_screen.dart';
 import 'package:{{_ "camelCase" name}}/screens.dart';
@@ -31,7 +31,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   UIController uiController;
-  MainController controller;
+  DataController controller;
 
   //UI_SCREEN _local_screen;
 
@@ -40,7 +40,7 @@ class _HomeState extends State<Home> {
     super.initState();
     
     uiController = UIController();
-    controller = MainController();
+    controller = DataController();
     uiController.addListener((){
     if (uiController.uiEvent == UI_EVENT.NEWSCREEN){
         setState(() {});

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:{{_ "camelCase" name}}/Controllers/main_controller.dart';
+import 'package:{{_ "camelCase" name}}/Controllers/data_controller.dart';
 import 'package:{{_ "camelCase" name}}/Controllers/ui_controller.dart';
 import 'package:{{_ "camelCase" name}}/Models/activity_model.dart';
 import 'package:{{_ "camelCase" name}}/shared.dart';
 
 
 class HomeScreen extends StatelessWidget {
-  final MainController controller;
+  final DataController controller;
   final UIController uiController;
 
 
