@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 
-class MainController extends ChangeNotifier{
+class DataController extends ChangeNotifier{
 
 
 

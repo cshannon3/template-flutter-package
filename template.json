@@ -1,5 +1,5 @@
 {
-    "variablesOrder": ["name", "version"],
+    "variablesOrder": ["name","dbname", "version"],
     "variables": {
       "version": {
         "default": "1.0.0"

@@ -6,7 +6,7 @@ import 'dart:async';
 import 'dart:io';
 import 'package:{{_ "camelCase" name}}/Models/db_model.dart';
 
-import '../Models/db_model.dart';
+// TODO check if this works
 class {{_ "camelCase" dbname}}Database {
   // want to create an instance of our movie db inside our moviedb class
   static final {{_ "camelCase" dbname}}Database _instance = GameHistoryDatabase._internal();
