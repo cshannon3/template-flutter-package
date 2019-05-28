@@ -1,4 +1,7 @@
 
+NOT FUNCTIONAL
+currently just trying to create Proof of Concept
+
 Creating a template generator and vs extension, 
 that enables the user to start from my perferred project structure in flutter
 
