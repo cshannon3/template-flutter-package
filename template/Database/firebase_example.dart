@@ -238,10 +238,10 @@ class ChatMessageContent extends StatelessWidget {
 }
 
 
-class Team {
+class Group {
   final String name;
   final String id;
   //final List<User> members;
 
-  const Team(this.name, this.id); //  this.members);
+  const Group(this.name, this.id); //  this.members);
 }
