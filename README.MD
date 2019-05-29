@@ -5,6 +5,20 @@ currently just trying to create Proof of Concept
 Creating a template generator and vs extension, 
 that enables the user to start from my perferred project structure in flutter
 
+HOW Template Works
+INSTALL
+1. Install vs code template extension
+npm install -g @fabiospampinato/template
+2. Get this template
+template install fabiospampinato/template-flutter-package flutter-package
+
+USAGE
+1. Create new flutter app using the official vscode flutter extension 
+2. Delete the libs folder that has the main.dart file in it
+3. Open terminal and create a new libs file from template
+template create flutter-package libs
+4. Enter the flutter app name for name
+5. Update the yaml file to include any packages that the template uses(will list them in the readme)
 
 TODO
 commands to create models/ Screens/ etc
