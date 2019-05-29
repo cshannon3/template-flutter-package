@@ -10,7 +10,7 @@ INSTALL
 1. Install vs code template extension
 npm install -g @fabiospampinato/template
 2. Get this template
-template install fabiospampinato/template-flutter-package flutter-package
+template install cshannon3/template-flutter-package flutter-package
 
 USAGE
 1. Create new flutter app using the official vscode flutter extension 
