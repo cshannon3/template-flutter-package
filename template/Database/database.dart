@@ -4,15 +4,15 @@ import 'package:sqflite/sqflite.dart';
 
 import 'dart:async';
 import 'dart:io';
-import 'package:{{_ "camelCase" name}}/Models/db_model.dart';
+import 'package:{{name}}/Models/db_model.dart';
 
 // TODO check if this works
-class {{_ "camelCase" dbname}}Database {
+class {{dbname}}Database {
   // want to create an instance of our movie db inside our moviedb class
-  static final {{_ "camelCase" dbname}}Database _instance = GameHistoryDatabase._internal();
+  static final {{dbname}}Database _instance = {{dbname}}Database._internal();
 
   //factory allows you to create many instances of your database
-  factory {{_ "camelCase" dbname}}Database() => _instance;
+  factory {{dbname}}Database() => _instance;
   static Database _db;
 
   Future<Database> get db async {
@@ -23,7 +23,7 @@ class {{_ "camelCase" dbname}}Database {
     return _db;
   }
 
-  {{_ "camelCase" dbname}}Database._internal();
+  {{dbname}}Database._internal();
 
   Future<Database> initDB() async {
     Directory documentsDirectory = await getApplicationDocumentsDirectory();

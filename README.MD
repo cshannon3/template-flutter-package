@@ -20,12 +20,6 @@ template create flutter-package libs
 4. Enter the flutter app name for name
 5. Update the yaml file to include any packages that the template uses(will list them in the readme)
 
-TODO
-commands to create models/ Screens/ etc
-choice of local db, firebase, or no db
-Options like webview, maps etc
-Structure for api communication and json parsing
-Bloc for streams of data
 
 
 The core functionality of the app is done through 4 types of widgets:
@@ -46,6 +40,15 @@ The core functionality of the app is done through 4 types of widgets:
 4. Stateless Widgets - These have no way to monitor changes in state and can only affect state indirectly(ex through call backs). Functions of stateless:
     a. Structural(Ex Screens)- they can be used to form the structure around the stateful apps
 
+
+
+TODO
+TOP -> figure out how to 
+commands to create models/ Screens/ etc
+choice of local db, firebase, or no db
+Options like webview, maps etc
+Structure for api communication and json parsing
+Bloc for streams of data
 
 Test and refract db, firebase, api etc
 Instructions on how to use google console + more examples

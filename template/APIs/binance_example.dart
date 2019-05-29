@@ -38,9 +38,9 @@ Future<Stream<CoinAPI>> getCoins() async {
   );
 
   return streamedRes.stream
-      .transform(UTF8.decoder)
-      .transform(JSON.decoder)
+      .transform(utf8.decoder)
+      .transform(json.decoder)
       .expand((jsonBody) => (jsonBody as List) )
-      .map((jsonCoin) => new BinanceInfo.fromJson(jsonCoin));
+      .map((jsonCoin) => CoinAPI.fromJson(jsonCoin));
 
 }

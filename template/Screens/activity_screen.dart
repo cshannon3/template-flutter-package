@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:{{_ "camelCase" name}}/Controllers/data_controller.dart';
-import 'package:{{_ "camelCase" name}}/Controllers/ui_controller.dart';
+import 'package:{{name}}/Controllers/data_controller.dart';
+import 'package:{{name}}/Controllers/ui_controller.dart';
 
 
 

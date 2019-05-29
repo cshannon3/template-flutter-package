@@ -1,3 +1,6 @@
+final String sqlTableString = 'id INTEGER PRIMARY KEY,game_type TEXT, score REAL, time TEXT, date TEXT';
+
+
 class SampleDBModel {
   final String gameType;
   final double score;
@@ -20,13 +23,7 @@ class SampleDBModel {
 
     return map;
   }
-    String sqlTable(){
-    String res = "id INTEGER PRIMARY KEY,";
-    res+= 'game_type TEXT, score REAL, time TEXT, date TEXT';
-
-    return res;
-  } 
-
+   
 
   SampleDBModel.fromOfflineDB(Map map)
       : gameType = map["game_type"],
