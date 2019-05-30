@@ -1,18 +1,21 @@
-import 'package:path/path.dart';
+//TODO way to set up local or firebase database
+
+
+/*import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 
 import 'dart:async';
 import 'dart:io';
-import 'package:{{name}}/Models/db_model.dart';
+import 'package:{{{name}}}/Models/db_model.dart';
 
 // TODO check if this works
-class {{dbname}}Database {
+class {{{dbname}}}Database {
   // want to create an instance of our movie db inside our moviedb class
-  static final {{dbname}}Database _instance = {{dbname}}Database._internal();
+  static final {{{dbname}}}Database _instance = {{{dbname}}}Database._internal();
 
   //factory allows you to create many instances of your database
-  factory {{dbname}}Database() => _instance;
+  factory {{{dbname}}}Database() => _instance;
   static Database _db;
 
   Future<Database> get db async {
@@ -23,7 +26,7 @@ class {{dbname}}Database {
     return _db;
   }
 
-  {{dbname}}Database._internal();
+  {{{dbname}}}Database._internal();
 
   Future<Database> initDB() async {
     Directory documentsDirectory = await getApplicationDocumentsDirectory();
@@ -34,7 +37,7 @@ class {{dbname}}Database {
 
   void _onCreate(Database db, int version) async {
     await db.execute(
-        '''CREATE TABLE {{_ "camelCase" dbname}}(${SampleDBModel.sqlTable()} )''');
+        '''CREATE TABLE {{_ "camelCase" dbname}}(${sqlTableString} )''');
 
     print("Database was Created!");
 
@@ -52,4 +55,4 @@ class {{dbname}}Database {
     return res.map((m) => SampleDBModel.fromOfflineDB(m)).toList();
   }
 
-}
+}*/
