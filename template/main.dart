@@ -1,8 +1,8 @@
 
-import 'package:{{_ "camelCase" name}}/Controllers/data_controller.dart';
-import 'package:{{_ "camelCase" name}}/Controllers/ui_controller.dart';
-import 'package:{{_ "camelCase" name}}/Screens/activity_screen.dart';
-import 'package:{{_ "camelCase" name}}/screens.dart';
+import 'package:{{_ "toLower" name}}/Controllers/data_controller.dart';
+import 'package:{{_ "toLower" name}}/Controllers/ui_controller.dart';
+import 'package:{{_ "toLower" name}}/Screens/activity_screen.dart';
+import 'package:{{_ "toLower" name}}/screens.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
