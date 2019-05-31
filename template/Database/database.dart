@@ -1,14 +1,16 @@
 //TODO way to set up local or firebase database
 
-
-/*import 'package:path/path.dart';
+{{#if dbname}}
+import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
+{{/if}}
+
 
 import 'dart:async';
 import 'dart:io';
 import 'package:{{{name}}}/Models/db_model.dart';
-
+/*
 // TODO check if this works
 class {{{dbname}}}Database {
   // want to create an instance of our movie db inside our moviedb class
