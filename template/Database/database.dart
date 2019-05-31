@@ -1,6 +1,6 @@
 //TODO way to set up local or firebase database
 
-{{#if dbname== "y"}}
+{{#if (eq dbname "y")}}
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
