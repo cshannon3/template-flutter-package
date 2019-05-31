@@ -44,13 +44,16 @@ The core functionality of the app is done through 4 types of widgets:
 
 TODO
 TOP -> figure out how to 
-commands to create models/ Screens/ etc
-choice of local db, firebase, or no db
-Options like webview, maps etc
-Structure for api communication and json parsing
-Bloc for streams of data
+commands to create models/ Screens/ etc -> need to create a real extension for that
 
-Test and refract db, firebase, api etc
+choice of local db, firebase, or no db -> taking too much time to figure out, will make seperate templates for each
+
+Options like webview, maps etc -> delegate to real extension
+Structure for api communication and json parsing ->
+    Bloc for streams of data - > 
+        Test and refract db, firebase, api etc - > 
+                do in a seperate api/bloc template
+                
 Instructions on how to use google console + more examples
 
 Move examples to example templates then give user options on including:
